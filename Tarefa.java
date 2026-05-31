@@ -7,5 +7,20 @@ public class Tarefa {
     private String prioridade;
     private String status;
     private Disciplina disciplina;
+
+   
+
+    public String get
+
+
+
+
+
+
+
+
+
+
+
     
 }
