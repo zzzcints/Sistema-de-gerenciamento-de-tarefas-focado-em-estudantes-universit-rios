@@ -23,7 +23,12 @@ public class Sistema implements Gerenciavel {
         System.out.println("Remoção realizada.");
     }
 
-    
+     @Override
+    public void listar() {
+        listarTarefas();
+    }
+
+
 
     public void cadastrarUsuario(Usuario u){
         usuarios.add(u);
@@ -50,14 +55,17 @@ public class Sistema implements Gerenciavel {
     }
 
     public void buscarTarefa(String titulo){
-        for(Tarefa t : tarefas){
-            if(t.getNomeTarefa().equalsIgnoreCase(titulo)){
-                t.exibir();
-                return;
+        try {
+            for(Tarefa t : tarefas){
+                if(t.getNomeTarefa().equalsIgnoreCase(titulo)){
+                    t.exibir();
+                    return;
+                }
             }
+            throw new Exception("Tarefa não encontrada.");
+        } catch (Exception e) {
+            System.out.println("Erro: " + e.getMessage());
         }
-        System.out.println("Tarefa nao encontrada.");
-
     }
 
     public void removerTarefa(String titulo){
