@@ -68,13 +68,18 @@ public class Sistema implements Gerenciavel {
         }
     }
 
-    public void removerTarefa(String titulo){
-        for(Tarefa t: tarefas){
-            if(t.getgetNomeTarefa().equalsIgnore(titulo)){
-                tarefas.remove(t);
-                System.ou.println("Tarefa removida");
-                return;
+   public void removerTarefa(String titulo){
+        try {
+            for(Tarefa t: tarefas){
+                if(t.getNomeTarefa().equalsIgnoreCase(titulo)){
+                    tarefas.remove(t);
+                    System.out.println("Tarefa removida");
+                    return;
+                }
             }
+            throw new Exception("Tarefa não encontrada.");
+        } catch (Exception e) {
+            System.out.println("Erro: " + e.getMessage());
         }
     }
 
