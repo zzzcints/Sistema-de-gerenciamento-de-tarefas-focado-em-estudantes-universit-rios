@@ -4,10 +4,13 @@ import java.util.ArrayList;
 public class Sistema {
     private ArrayList<Tarefa> tarefas;
     private ArrayList<Disciplina> disciplinas;
+    private ArrayList<Usuario> usuarios;
+
 
     public Sistema(){
         tarefas = new ArrayList<>();
         disciplinas = new ArrayList<>();
+        usuarios = new ArrayList<>();
     }
 
     public void cadastrarDisciplina(Disciplina d){
