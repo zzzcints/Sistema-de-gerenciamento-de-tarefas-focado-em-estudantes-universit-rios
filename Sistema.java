@@ -13,6 +13,18 @@ public class Sistema implements Gerenciavel {
         usuarios = new ArrayList<>();
     }
 
+    @Override
+      public void cadastrar() {
+        System.out.println("Cadastro realizado.");
+    }
+
+    @Override
+      public void remover() {
+        System.out.println("Remoção realizada.");
+    }
+
+    
+
     public void cadastrarUsuario(Usuario u){
         usuarios.add(u);
         System.out.println("Usuário cadastrado: " + u.getNome());
