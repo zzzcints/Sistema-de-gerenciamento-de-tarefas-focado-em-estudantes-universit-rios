@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class Sistema {
+public class Sistema implements Gerenciavel {
     private ArrayList<Tarefa> tarefas;
     private ArrayList<Disciplina> disciplinas;
     private ArrayList<Usuario> usuarios;
