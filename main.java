@@ -11,7 +11,9 @@ public class Main{
 
         System.out.print("Nome da disciplina: ");
         String nome = sc.nextLine();
-        Usuario usuario = new Usuario(String nome);
+        System.out.println("Digite o seu nome: ");
+        String nome = sc.nextLine();
+        Usuario usuario = new Usuario(nome);
         sistema.cadastrarUsuario(usuario);
 
         while (true) {
