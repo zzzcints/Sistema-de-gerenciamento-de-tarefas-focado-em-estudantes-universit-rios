@@ -13,14 +13,21 @@ public class Sistema {
         usuarios = new ArrayList<>();
     }
 
+    public void cadastrarUsuario(Usuario u){
+        usuarios.add(u);
+        System.out.println("Usuário cadastrado: " + u.getNome());
+    }
+
+
     public void cadastrarDisciplina(Disciplina d){
         disciplinas.add(d);
+        System.out.println("Disciplina cadastrada: " + d.getNome());
 
     }
 
     public void cadastrarTarefa(Tarefa t){
         tarefas.add(t);
-
+        System.out.println("Tarefa cadastrada: "+ t.getNomeTarefa());
     }
 
     public void listarTarefas(){
@@ -32,7 +39,7 @@ public class Sistema {
 
     public void buscarTarefa(String titulo){
         for(Tarefa t : tarefas){
-            if(t.getTitulo().equalsIgnoreCase(titulo)){
+            if(t.getNomeTarefa().equalsIgnoreCase(titulo)){
                 t.exibir();
                 return;
             }
@@ -41,9 +48,9 @@ public class Sistema {
 
     }
 
-    public void removerTarefa(){
+    public void removerTarefa(String titulo){
         for(Tarefa t: tarefas){
-            if(t.getTitulo().equalsIgnore(titulo)){
+            if(t.getgetNomeTarefa().equalsIgnore(titulo)){
                 tarefas.remove(t);
                 System.ou.println("Tarefa removida");
                 return;
@@ -54,10 +61,8 @@ public class Sistema {
      public void relatorioAtividades() {
 
         System.out.println("RELATÓRIO DE ATIVIDADES");
-
-        for (Tarefa t : tarefas) {
-            t.exibir();
-        }
+        listarTarefas();
+      
     }
 
        public void relatorioDisciplinas() {
@@ -65,7 +70,7 @@ public class Sistema {
         System.out.println("AGENDA DAS DISCIPLINAS");
 
         for (Disciplina d : disciplinas) {
-            System.out.println(d.getNome());
+            System.out.println(d.getNome() + " - Professor: " + d.getProfessor());
         }
     }
 }
