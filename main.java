@@ -1,3 +1,5 @@
+import java.util.InputMismatchException;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 
@@ -9,10 +11,46 @@ public class Main{
          Scanner sc = new Scanner(System.in);
          Sistema sistema = new Sistema();
 
-        System.out.print("Digite o seu nome: ");
-        String nome = sc.nextLine();
-        Usuario usuario = new Usuario(nome);
-        sistema.cadastrarUsuario(usuario);
+      System.out.println("Bem-vindo ao Sistema de Gerenciamento de Tarefas!");
+      System.out.println("1 - Login");
+      System.out.println("2 - Cadastrar novo usuário");
+      System.out.print("Escolha: ");
+
+      int escolhaLogin = -1;
+      try {
+        escolhaLogin = sc.nextInt();
+        sc.nextLine(); 
+     } catch (InputMismatchException e) {
+        System.out.println("Erro: digite apenas números!");
+        sc.nextLine();
+     }
+
+     Usuario usuario = null;
+
+    if (escolhaLogin == 1) {
+         System.out.print("Digite seu nome de usuário: ");
+         String nomeLogin = sc.nextLine();
+         for (Usuario u : sistema.getUsuarios()) {
+    if (u.getNome().equalsIgnoreCase(nomeLogin)) {
+            usuario = u;
+            break;
+        }
+    }
+    if (usuario == null) {
+        System.out.println("Usuário não encontrado. Cadastre-se primeiro.");
+        return; 
+    } else {
+        System.out.println("Login realizado com sucesso! Bem-vindo, " + usuario.getNome());
+    }
+    } else if (escolhaLogin == 2) {
+    System.out.print("Digite o seu nome: ");
+    String nomeNovo = sc.nextLine();
+    usuario = new Usuario(nomeNovo);
+    sistema.cadastrarUsuario(usuario);
+    } else {
+    System.out.println("Opção inválida.");
+    return;
+}
 
 
         while (true) {
@@ -26,8 +64,16 @@ public class Main{
             System.out.println("7 - Relatório de disciplinas");
             System.out.println("0 - Sair");
             System.out.print("Escolha: ");
-            int opcao = sc.nextInt();
-            sc.nextLine(); 
+            
+            int opcao = -1; // valor padrão
+            try {
+                opcao = sc.nextInt();
+                sc.nextLine(); 
+            } catch (InputMismatchException e) {
+                System.out.println("Erro: digite apenas números!");
+                sc.nextLine(); 
+                continue;      
+            }
 
             switch (opcao) {
                 case 1:
