@@ -9,12 +9,11 @@ public class Main{
          Scanner sc = new Scanner(System.in);
          Sistema sistema = new Sistema();
 
-        System.out.print("Nome da disciplina: ");
-        String nome = sc.nextLine();
-        System.out.println("Digite o seu nome: ");
+        System.out.print("Digite o seu nome: ");
         String nome = sc.nextLine();
         Usuario usuario = new Usuario(nome);
         sistema.cadastrarUsuario(usuario);
+
 
         while (true) {
             System.out.println("\nMENU:");
@@ -51,8 +50,7 @@ public class Main{
                     System.out.print("Disciplina da tarefa: ");
                     String discTarefa = sc.nextLine();
                     Disciplina disciplinaEncontrada = null;
-                    for (Disciplina disc : sistema.disciplinas) {
-                        if (disc.getNome().equalsIgnoreCase(discTarefa)) {
+                    for (Disciplina disc : sistema.getDisciplinas()) {                        if (disc.getNome().equalsIgnoreCase(discTarefa)) {
                             disciplinaEncontrada = disc;
                             break;
                         }
@@ -93,5 +91,4 @@ public class Main{
     
 }
 
-
-
+}

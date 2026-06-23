@@ -6,6 +6,11 @@ public class Sistema implements Gerenciavel {
     private ArrayList<Disciplina> disciplinas;
     private ArrayList<Usuario> usuarios;
 
+    public ArrayList<Disciplina> getDisciplinas() {
+    return disciplinas;
+    }
+
+
 
     public Sistema(){
         tarefas = new ArrayList<>();
