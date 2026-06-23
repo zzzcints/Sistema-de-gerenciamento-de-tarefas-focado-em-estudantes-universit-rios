@@ -1,4 +1,4 @@
-import java.util.InputMismatchException;
+package src.main.java;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 

@@ -1,3 +1,4 @@
+package src.main.java;
 public abstract class Pessoa {
     private String nome;
 

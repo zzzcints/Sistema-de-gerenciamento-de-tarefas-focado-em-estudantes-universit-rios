@@ -1,3 +1,4 @@
+package src.main.java;
 public class Tarefa {
     private String nomeTarefa;   
     private String descricao;
