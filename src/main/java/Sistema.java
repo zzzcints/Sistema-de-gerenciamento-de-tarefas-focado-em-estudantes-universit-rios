@@ -1,5 +1,9 @@
 package br.ufc;
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 public class Sistema implements Gerenciavel {
@@ -175,6 +179,14 @@ public class Sistema implements Gerenciavel {
             System.out.println("Erro: " + e.getMessage());
         }
     }
+
+    public boolean removerTarefa(Tarefa tarefa) {
+    if (tarefas.contains(tarefa)) {
+        tarefas.remove(tarefa);
+        return true;
+    }
+    return false;
+}
 
     public void removerTarefa(String titulo){
         try {

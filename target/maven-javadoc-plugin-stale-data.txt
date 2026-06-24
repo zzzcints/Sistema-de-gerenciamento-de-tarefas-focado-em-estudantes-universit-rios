@@ -1,0 +1,55 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@argfile
+--no-fonts
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'sistema-tarefas 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'sistema-tarefas 1.0-SNAPSHOT API'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Disciplina.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Gerenciavel.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Main.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Pessoa.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Sistema.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Tarefa.java'
+'C:/Users/Cíntia/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios/src/main/java/Usuario.java'
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Disciplina.java = 1782259578023
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Gerenciavel.java = 1782259567375
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Main.java = 1782259562636
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Pessoa.java = 1782259565254
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Sistema.java = 1782260899687
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Tarefa.java = 1782259576409
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java\Usuario.java = 1782259574230
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\src\main\java = 1782257727883
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\allclasses-index.html = 1782261505425
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\allpackages-index.html = 1782261505429
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\element-list = 1782261505259
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\help-doc.html = 1782261505523
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\index-all.html = 1782261505494
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\index.html = 1782261505503
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\member-search-index.js = 1782261505448
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\module-search-index.js = 1782261505434
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\overview-tree.html = 1782261505396
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\package-search-index.js = 1782261505439
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\search.html = 1782261505499
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\tag-search-index.js = 1782261505451
+C:\Users\Cíntia\Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios\target\reports\apidocs\type-search-index.js = 1782261505441
