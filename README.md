@@ -43,6 +43,7 @@ target/
 ## Como executar
 
 mvn clean install
+
 java -cp target/sistema-tarefas-1.0-SNAPSHOT.jar br.ufc.Main
 
 
