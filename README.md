@@ -20,6 +20,7 @@ Este projeto é um sistema simples de gerenciamento de tarefas acadêmicas, dese
 
 ## Estrutura do projeto 
 
+```
 src/
  ├── main/java/
  │    ├── Main.java
@@ -38,13 +39,13 @@ target/
  ├── test-classes/         # classes de teste compiladas
  ├── surefire-reports/     # relatórios dos testes
  └── site/apidocs/         # documentação JavaDoc
-
+```
 
 ## Como executar
-
+```
 mvn clean install
 java -cp target/sistema-tarefas-1.0-SNAPSHOT.jar br.ufc.Main
-
+```
 
 
 Projeto desenvolvido por Cíntia Gonçalves Dias, graduanda em Engenharia de Computação - UFC.
