@@ -1,4 +1,4 @@
-package src.main.java;
+package br.ufc;
 public interface Gerenciavel {
     void cadastrar();
     void remover();

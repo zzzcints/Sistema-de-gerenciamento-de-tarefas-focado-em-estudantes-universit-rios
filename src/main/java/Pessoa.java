@@ -1,4 +1,4 @@
-package src.main.java;
+package br.ufc;
 public abstract class Pessoa {
     private String nome;
 

@@ -1,4 +1,4 @@
-package src.main.java;
+package br.ufc;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
