@@ -1,1 +1,0 @@
-typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html","k":"18"},{"p":"br.ufc","l":"Disciplina"},{"p":"br.ufc","l":"Gerenciavel","k":"10"},{"p":"br.ufc","l":"Main"},{"p":"br.ufc","l":"Pessoa"},{"p":"br.ufc","l":"Sistema"},{"p":"br.ufc","l":"Tarefa"},{"p":"br.ufc","l":"Usuario"}];updateSearchResults();

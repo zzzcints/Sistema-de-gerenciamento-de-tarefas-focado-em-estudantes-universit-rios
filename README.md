@@ -50,8 +50,21 @@ target/
 
 ## Como executar
 ```
-mvn clean install
-java -cp target/sistema-tarefas-1.0-SNAPSHOT.jar br.ufc.Main
+Necessário ter instalado: 
+Java JDK 17 ou superior
+Maven 3.x
+
+Clonar o repositório:
+git clone https://github.com/zzzcints/Sistema-de-gerenciamento-de-tarefas-focado-em-estudantes-universit-rios
+
+Compilar:
+mvn clean compile
+
+Executar:
+mvn exec:java "-Dexec.mainClass=br.ufc.Main"
+
+Executar os testes:
+mvn test
 ```
 
 
