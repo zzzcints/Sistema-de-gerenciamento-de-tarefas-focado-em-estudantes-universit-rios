@@ -48,6 +48,9 @@ target/
  └── site/apidocs/         # documentação JavaDoc
 ```
 
+## UML
+https://drive.google.com/file/d/1H67HffRn1jmjCadooS_v-zmrZObgmhUW/view?usp=sharing
+
 ## Como executar
 ```
 Necessário ter instalado: 

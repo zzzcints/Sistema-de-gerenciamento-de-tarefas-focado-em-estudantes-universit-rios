@@ -8,3 +8,6 @@ POO;Professor João
 POO;Professor João
 POO;Professor João
 POO;Professor João
+Calculo 1;Joel
+Matematica Basica;Aragao
+POO;Carlos
