@@ -2,6 +2,14 @@ package br.ufc;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
+/**
+ * Classe principal do sistema.
+ *
+ * Responsável por iniciar a aplicação e exibir o menu
+ * interativo para o usuário.
+ */
+
+
 
 public class Main{
 
@@ -65,7 +73,7 @@ public class Main{
             System.out.println("0 - Sair");
             System.out.print("Escolha: ");
             
-            int opcao = -1; // valor padrão
+            int opcao = -1; 
             try {
                 opcao = sc.nextInt();
                 sc.nextLine(); 

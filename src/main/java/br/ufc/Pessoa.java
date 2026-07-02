@@ -1,4 +1,14 @@
 package br.ufc;
+
+/**
+ * Classe abstrata que representa uma pessoa no sistema.
+ * Serve como base para outros tipos de usuários.
+ *
+ * Contém informações básicas como nome.
+ *
+ * @author Cíntia
+ */
+
 public abstract class Pessoa {
     private String nome;
 

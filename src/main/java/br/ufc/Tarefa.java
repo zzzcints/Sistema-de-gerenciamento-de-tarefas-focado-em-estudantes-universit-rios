@@ -1,4 +1,13 @@
 package br.ufc;
+
+/**
+ * Representa uma tarefa acadêmica associada a uma disciplina.
+ *
+ * Contém informações como título, descrição, prioridade e status.
+ * Permite o acompanhamento das atividades do estudante.
+ */
+
+
 public class Tarefa {
     private String nomeTarefa;   
     private String descricao;

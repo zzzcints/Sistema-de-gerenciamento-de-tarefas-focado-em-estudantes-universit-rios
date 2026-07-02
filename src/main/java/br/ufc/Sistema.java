@@ -1,4 +1,17 @@
 package br.ufc;
+
+/**
+ * Classe responsável por gerenciar todo o sistema de tarefas.
+ *
+ * Ela controla usuários, disciplinas e tarefas,
+ * além de realizar operações como cadastro, busca,
+ * remoção e geração de relatórios.
+ *
+ * Implementa a interface Gerenciavel.
+ */
+
+
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.FileReader;

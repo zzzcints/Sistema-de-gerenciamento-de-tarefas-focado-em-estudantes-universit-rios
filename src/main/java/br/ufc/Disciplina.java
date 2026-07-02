@@ -1,4 +1,15 @@
 package br.ufc;
+
+
+/**
+ * Representa uma disciplina acadêmica.
+ *
+ * Cada disciplina possui um nome e um professor responsável.
+ * As tarefas do sistema são organizadas por disciplina.
+ */
+
+
+
 public class Disciplina {
 
     
