@@ -21,18 +21,25 @@ Este projeto é um sistema simples de gerenciamento de tarefas acadêmicas, dese
 ## Estrutura do projeto 
 
 ```
-src/
- ├── main/java/
- │    ├── Main.java
- │    ├── Sistema.java
- │    ├── Usuario.java
- │    ├── Disciplina.java
- │    └── Tarefa.java
- └── test/java/
-      ├── SistemaTest.java
-      ├── UsuarioTest.java
-      ├── DisciplinaTest.java
-      └── TarefaTest.java
+├── src/
+│   ├── main/
+│   │   └── java/
+│   │       └── br/
+│   │           └── ufc/
+│   │               ├── Main.java
+│   │               ├── Pessoa.java
+│   │               ├── Usuario.java
+│   │               ├── Disciplina.java
+│   │               ├── Tarefa.java
+│   │               ├── Sistema.java
+│   │               └── Gerenciavel.java
+│   │
+│   └── test/
+│       └── java/
+│           ├── UsuarioTest.java
+│           ├── DisciplinaTest.java
+│           ├── TarefaTest.java
+│           └── SistemaTest.java
 
 target/
  ├── classes/              # classes compiladas
